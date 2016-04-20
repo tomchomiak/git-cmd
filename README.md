@@ -1,6 +1,6 @@
 # Git Commands Cheatsheet
 
-Reference list of common git commands. Enjoy!
+Reference list of common git commands.
 
 ## Remotes
 | Command                                                                                                            | Purpose                                                                                                        |
@@ -8,7 +8,7 @@ Reference list of common git commands. Enjoy!
 | git remote -v                                                                                                      | show remove repositories for local repo                                                                        |
 | git remote rm `<name>`                                                                                             | remove remote repository                                                                                       |
 | git remote add `<name>` `<address>`                                                                                | add remote repository                                                                                          |
-| git push  -u `<remote>` `<branch>`                                                                                 | push to specific remote and branch name                                                                        |
+| git push  -u `<remote>` `<branch>`                                                                                 | push to remote and branch name. after using -u once you can just use `git push` to push to same remote & branch|
 
 ## Diffs
 | Command                                                                                                            | Purpose                                                                                                        |
