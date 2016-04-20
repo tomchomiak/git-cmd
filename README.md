@@ -7,7 +7,7 @@ A list of common git commands
 | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------|
 | git remote -v                                                                                                      | show remove repositories for local repo                                                                        |
 | git remote rm `<name>`                                                                                             | remove remote repository                                                                                       |
-| git remote add `<name>`                                                                                            | add remote repository                                                                                       |
+| git remote add `<name>` `<address>`                                                                                | add remote repository                                                                                          |
 | git push  -u `<remote>` `<branch>`                                                                                 | push to specific remote and branch name                                                                        |
 
 ## Diffs
