@@ -6,7 +6,7 @@ A list of common git commands
 | Command                                                                                                            | Purpose                                                                                                        |
 | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------|
 | git remote -v                                                                                                      | show remove repositories for local repo                                                                        |
-| git push  -u [remote] [branch]                                                                                     | push to specific remote and branch name                                                                        |
+| git push  -u `remote` `branch`                                                                                     | push to specific remote and branch name                                                                        |
 
 ## Diffs
 
