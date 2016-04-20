@@ -1,6 +1,6 @@
 # Git Commands Cheatsheet
 
-A list of common git commands
+Reference list of common git commands. Enjoy!
 
 ## Remotes
 | Command                                                                                                            | Purpose                                                                                                        |
