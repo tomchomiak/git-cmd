@@ -16,9 +16,11 @@ Reference list of common git commands. Enjoy!
 | git diff                                                                                                           | unstaged differences from last commit                                                                          |
 | git diff --staged                                                                                                  | staged differences from last commit                                                                            |
 
-## Reset commits
+## Commits
 | Command                                                                                                            | Purpose                                                                                                        |
 | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------|
+| git commit -a -m "`<message>`"                                                                                     | Add tracked files to stage and commit                                                                          |
+| git commit -ammend -m "`<message>`"                                                                                | Ammend last commit                                                                                             |
 | git reset --soft HEAD^                                                                                             | Reset last commit into staging                                                                                 |
 | git reset --hard HEAD^                                                                                             | Blow away last commit                                                                                          |
 | git reset --hard HEAD^^                                                                                            | Blow away last two commits                                                                                     |
