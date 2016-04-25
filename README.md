@@ -17,7 +17,7 @@ Reference list of common git commands.
 | git remote rm `<remote>`                                                                                             | remove remote repository                                                                                       |
 | git remote add `<remote>` `<address>`                                                                                | add remote repository                                                                                          |
 | git push  -u `<remote>` `<branch>`                                                                                 | push to remote and branch name.                                                                                |
-| git remote show `<remote>`                                                                                 | show all remote and local branches (and if local is up to date) 
+| git remote show `<remote>`                                                                                 | show status of all remote and local branches
 
 ## Diffs
 | Command                                                                                                            | Purpose                                                                                                        |
