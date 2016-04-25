@@ -47,4 +47,3 @@ Reference list of common git commands.
 | git push `<remote>` :`<branch>` | adding colon deletes remote branch, not the local branch though |
 | git branch -d `<branch>` | remove local branch (will warn if have uncommited work) |
 | git branch -D `<branch>` | remove local branch and blow away any uncommited work |
-| git push `<remote>` :`<branch>` | adding colon deletes remote branch, not the local branch though |
