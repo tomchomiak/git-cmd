@@ -36,6 +36,6 @@ Reference list of common git commands.
 | git checkout -b `<name>`                                                                                    | shortcut that creates branch and then checks it out                                                            |
 | git checkout master; git merge `<branch name>`                                                                     | merge branch with master                                                                                       |
 | git checkout master; git merge `<branch name>`                                                                     | remove branch (do this after merge)                                                                            |
-| git push origin master `<branch name>`                                                                     | make local branch a remote branch on master  
+| git push `<remote>` master `<branch name>`                                                                     | make local branch a remote branch on master  
 | git push `<remote>` :`<branch>`                                                                    | adding colon deletes remote branch, not the local branch though
                                                                           |
