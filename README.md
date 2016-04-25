@@ -45,3 +45,9 @@ Reference list of common git commands.
 | git checkout master; git merge `<branch>`                                                                     | merge branch with master                                                                      |
 | git push `<remote>` master `<branch>`                                                                     | make local branch a remote branch on master  
 | git push `<remote>` :`<branch>`                                                                    | adding colon deletes remote branch, not the local branch though |
+
+  
+| git branch -d `<branch>` | remove local branch (will warn if have uncommited work) |
+| git branch -D `<branch>` | remove local branch and blow away any uncommited work |
+  
+| git push `<remote>` :`<branch>`                                                                    | adding colon deletes remote branch, not the local branch though |
