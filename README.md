@@ -3,7 +3,9 @@
 Reference list of common git commands. 
 
 `<remote>` remote repository name (i.e. Github automatically adds `origin` remote to your repo)
+
 `<branch>` branch name
+
 `<message>` comit message
 
 ## Remotes
