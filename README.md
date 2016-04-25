@@ -8,7 +8,7 @@ Reference list of common git commands.
 
 `<branch>` branch name
 
-`<message>` comit message
+`<message>` commit message
 
 ## Remotes
 | Command                                                                                                            | Purpose                                                                                                        |
