@@ -1,6 +1,6 @@
 # Git Commands Cheatsheet
 
-Reference list of common git commands. 
+Reference list of common git commands.
 
 `<remote>` remote repository name (i.e. Github automatically adds `origin` remote to your repo)
 
@@ -9,6 +9,50 @@ Reference list of common git commands.
 `<branch>` branch name
 
 `<message>` commit message
+
+## Help
+
+| Command | Purpose |
+| -------- | ------ |
+| git help |  will return a list of commands |
+| git help `<command>` | will return info about that command|
+
+## Git Configuration
+
+| Command | Purpose |
+| -------- | ------ |
+| git config --global user.name "Tom Chomiak" | globally set your user name |
+| git config --global user.email "youremail@email.com" | globally set your email |
+| git config --global color.ui true | enable colors in git command line |
+
+## Starting a Repo
+
+Create local git directory
+
+```bash
+mkdir test
+cd test
+git init
+```
+
+## Tracking and Staging Files
+
+| Command | Purpose |
+| ------- | ------ |
+| git add `<filename>` | add file to staging area for commit |
+| git add `<filename>` `<filename>` | add multiple files to staging area for commit |
+| git add --all | Adds all **tracked files** that have changed to staging area|
+| git add *.txt | Adds all text files in current directory |
+| git add app/ | Adds all files in app directory |
+| git add app/*.txt | Adds all text files in app directory|
+| git add "*.txt" | Adds all text files in the entire project |
+
+## Git History
+
+| Command | Purpose |
+| ------- | ------ |
+| git log | list git timeline history|
+| | |
 
 ## Remotes
 | Command                                                                                                            | Purpose                                                                                                        |
@@ -30,6 +74,7 @@ Reference list of common git commands.
 ## Commits
 | Command                                                                                                            | Purpose                                                                                                        |
 | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------|
+| git commit -m "`<message>`" | Make a commit with message |
 | git commit -a -m "`<message>`"                                                                                     | Add tracked files to stage and commit                                                                          |
 | git commit -amend -m "`<message>`"                                                                                 | Amend last commit                                                                                              |
 | git reset --soft HEAD^                                                                                             | Reset last commit into staging                                                                                 |
