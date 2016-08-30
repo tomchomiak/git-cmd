@@ -1,6 +1,20 @@
 # Git Commands Cheatsheet
 
-Reference list of common git commands.
+Reference list of common git commands
+
+* [Glossary](#dynamictargets)
+* [Help](#help)
+* [Git Config](#configuration)
+* [Starting a repo](#startingarepo)
+* [Tracking and Staging Files](#trackingandstagingfiles)
+* [Git History](#githistory)
+* [Remotes](#remotes)
+* [Diffs](#diffs)
+* [Commits](#commits)
+* [Branching](#branching)
+
+
+## Dynamic Targets
 
 `<remote>` remote repository name (i.e. Github automatically adds `origin` remote to your repo)
 
@@ -10,6 +24,10 @@ Reference list of common git commands.
 
 `<message>` commit message
 
+`<file>` path to a file
+
+`HEAD` refers to the last commit on the current branch you are on
+
 ## Help
 
 | Command | Purpose |
@@ -17,7 +35,7 @@ Reference list of common git commands.
 | git help |  will return a list of commands |
 | git help `<command>` | will return info about that command|
 
-## Git Configuration
+## Configuration
 
 | Command | Purpose |
 | -------- | ------ |
@@ -39,13 +57,20 @@ git init
 
 | Command | Purpose |
 | ------- | ------ |
-| git add `<filename>` | add file to staging area for commit |
-| git add `<filename>` `<filename>` | add multiple files to staging area for commit |
+| git add `<file>` | add file to staging area for commit |
+| git add `<file>` `<file>` | add multiple files to staging area for commit |
 | git add --all | Adds all **tracked files** that have changed to staging area|
 | git add *.txt | Adds all text files in current directory |
 | git add app/ | Adds all files in app directory |
 | git add app/*.txt | Adds all text files in app directory|
 | git add "*.txt" | Adds all text files in the entire project |
+
+## Unstaging Files
+| Command | Purpose |
+| ------- | ------ |
+| git reset HEAD `<file>` | Unstage a file |
+| git checkout `<file>`| reset unstaged file to the state it was in in last commit |
+
 
 ## Git History
 
@@ -57,8 +82,8 @@ git init
 ## Remotes
 | Command                                                                                                            | Purpose                                                                                                        |
 | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------|
-| git remote -v                                                                                                      | show remove repositories for local repo                                                                        |
-| git remote rm `<remote>`                                                                                             | remove remote repository                                                                                       |
+| git remote -v | show remove repositories local repo knows about |
+| git remote rm `<remote>` | remove remote repository |
 | git remote add `<remote>` `<address>`                                                                                | add remote repository                                                                                          |
 | git push  -u `<remote>` `<branch>`                                                                                 | push to remote and branch name.                                                                                |
 | git push heroku `<branch>`:`master` | push branch to heroku. heroku only deploys master|
@@ -76,7 +101,7 @@ git init
 | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------|
 | git commit -m "`<message>`" | Make a commit with message |
 | git commit -a -m "`<message>`"                                                                                     | Add tracked files to stage and commit                                                                          |
-| git commit -amend -m "`<message>`"                                                                                 | Amend last commit                                                                                              |
+| git commit --amend -m "`<message>`"                                                                                 | Amend last commit                                                                                              |
 | git reset --soft HEAD^                                                                                             | Reset last commit into staging                                                                                 |
 | git reset --hard HEAD^                                                                                             | Blow away last commit                                                                                          |
 | git reset --hard HEAD^^                                                                                            | Blow away last two commits                                                                                     |
