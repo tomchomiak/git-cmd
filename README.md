@@ -81,7 +81,7 @@ git init
 | git log --pretty=oneline | display one line history with sha1 at begining |
 |git log --pretty=format:"%h %ad- %s [%an}" | you can format log|
 | git log --oneline -p | show what each commit changed |
-| git log --oneline --stat | |
+| git log --oneline --stat | show insertions, deletions, additions for commits|
 | git log --oneline --graph | get visual representation of log|
 
 ## Remotes
