@@ -2,12 +2,12 @@
 
 Reference list of common git commands
 
-* [Glossary](#dynamictargets)
+* [Glossary](#dynamic-targets)
 * [Help](#help)
 * [Git Config](#configuration)
-* [Starting a repo](#startingarepo)
-* [Tracking and Staging Files](#trackingandstagingfiles)
-* [Git History](#githistory)
+* [Starting a repo](#starting-a-repo)
+* [Tracking and Staging Files](#tracking-and-staging-files)
+* [Git History](#git-history)
 * [Remotes](#remotes)
 * [Diffs](#diffs)
 * [Commits](#commits)
