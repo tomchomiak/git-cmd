@@ -1,6 +1,6 @@
 # Git Commands Cheatsheet
 
-Reference list of common git commands
+Reference list of common git commands. Bug fix
 
 * [Glossary](#dynamic-targets)
 * [Help](#help)
