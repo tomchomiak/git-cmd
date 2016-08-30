@@ -39,6 +39,7 @@ Reference list of common git commands.
 
 | Command | Purpose |
 | -------- | ------ |
+| git config --list | list git configurations |
 | git config --global user.name "Tom Chomiak" | globally set your user name |
 | git config --global user.email "youremail@email.com" | globally set your email |
 | git config --global color.ui true | enable colors in git command line |
@@ -81,7 +82,7 @@ git init
 |git log --pretty=format:"%h %ad- %s [%an}" | you can format log|
 | git log --oneline -p | show what each commit changed |
 | git log --oneline --stat | |
-| git log --oneline --graph | get visual representation of log| 
+| git log --oneline --graph | get visual representation of log|
 
 ## Remotes
 | Command                                                                                                            | Purpose                                                                                                        |
