@@ -86,8 +86,8 @@ git init
 | git log --oneline --graph | get visual representation of log|
 
 ## Remotes
-| Command                                                                                                            | Purpose                                                                                                        |
-| ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------|
+| Command | Purpose |
+| ------- | ------ |
 | git remote -v | show remove repositories local repo knows about |
 | git remote rm `<remote>` | remove remote repository |
 | git remote add `<remote>` `<address>`                                                                                | add remote repository                                                                                          |
@@ -97,8 +97,8 @@ git init
 | git remote prune `<remote>` | remove stale branches|
 
 ## Diffs
-| Command                                                                                                            | Purpose                                                                                                        |
-| ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------|
+| Command | Purpose |
+| ------- | ------ |
 | git diff  | unstaged differences from last commit |
 | git diff --staged  | staged differences from last commit |
 | git diff `<branch>` `<branch>` | show differences between two the two branches and the commits they point to|
@@ -106,8 +106,8 @@ git init
 
 
 ## Commits
-| Command                                                                                                            | Purpose                                                                                                        |
-| ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------|
+| Command | Purpose |
+| ------- | ------ |
 | git commit -m "`<message>`" | Make a commit with message |
 | git commit -a -m "`<message>`"                                                                                     | Add tracked files to stage and commit                                                                          |
 | git commit --amend -m "`<message>`"                                                                                 | Amend last commit                                                                                              |
@@ -116,8 +116,8 @@ git init
 | git reset --hard HEAD^^                                                                                            | Blow away last two commits                                                                                     |
 
 ## Branching
-| Command                                                                                                            | Purpose                                                                                                        |
-| ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------|
+| Command | Purpose |
+| ------- | ------ |
 | git branch | show current branch along with available local branches |
 | git branch -v | list branches and show commits the branches are pointing to |
 | git branch -r                                                                                               | list all remote branches branch                                                                                      |
