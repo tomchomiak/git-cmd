@@ -115,7 +115,8 @@ git init
 ## Branching
 | Command                                                                                                            | Purpose                                                                                                        |
 | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------|
-| git branch                                                                                                         | show current branch along with available local branches                                                                                            |
+| git branch | show current branch along with available local branches |
+| git branch -v | list branches and show commits the branches are pointing to |
 | git branch -r                                                                                               | list all remote branches branch                                                                                      |
 | git branch `<branch>`                                                                                                | create new feature branch                                                                                      |
 | git checkout `<branch>`                                                                                       | switch timelines to branch                                                                                     |
