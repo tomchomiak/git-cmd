@@ -61,6 +61,7 @@ git init
 | git add `<file>` | add file to staging area for commit |
 | git add `<file>` `<file>` | add multiple files to staging area for commit |
 | git add --all | Adds all **tracked files** that have changed to staging area|
+| git add -p | Interactively add changed hunks |
 | git add *.txt | Adds all text files in current directory |
 | git add app/ | Adds all files in app directory |
 | git add app/*.txt | Adds all text files in app directory|
