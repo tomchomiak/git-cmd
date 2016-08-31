@@ -36,6 +36,9 @@ Reference list of common git commands.
 | git help `<command>` | will return info about that command|
 
 ## Configuration
+*--system* flag is used as a system wide setting for all users
+<br>*--global* flag is used as a global setting for your user account
+<br>*--local* flag is used as a local setting for your current local repo
 
 | Command | Purpose |
 | -------- | ------ |
