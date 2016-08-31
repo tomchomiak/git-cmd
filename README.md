@@ -44,8 +44,10 @@ Reference list of common git commands.
 | git config --global user.email "youremail@email.com" | globally set your email |
 | git config --global color.ui true | enable colors in git command line |
 *--system* flag is used as a system wide setting for all users
-<br>*--global* flag is used as a global setting for your user account
-<br>*--local* flag is used as a local setting for your current local repo
+
+*--global* flag is used as a global setting for your user account
+
+*--local* flag is used as a local setting for your current local repo
 ## Starting a Repo
 
 Create local git directory
