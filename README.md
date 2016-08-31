@@ -99,8 +99,11 @@ git init
 ## Diffs
 | Command                                                                                                            | Purpose                                                                                                        |
 | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------|
-| git diff                                                                                                           | unstaged differences from last commit                                                                          |
-| git diff --staged                                                                                                  | staged differences from last commit                                                                            |
+| git diff  | unstaged differences from last commit |
+| git diff --staged  | staged differences from last commit |
+| git diff `<branch>` `<branch>` | show differences between two the two branches and the commits they point to|
+| git diff `<commit>` `<commit>` | show differences between two commits|
+
 
 ## Commits
 | Command                                                                                                            | Purpose                                                                                                        |
