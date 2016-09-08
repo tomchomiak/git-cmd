@@ -141,7 +141,7 @@ git init
 ## Aliases
 | Command | Purpose |
 | ------- | ------ |
-|git config --global alias.<alias name> "<git code>" | create alias|
+|git config --global alias.`<name>` "`<command>`" | create alias|
 
 Examples:
 
