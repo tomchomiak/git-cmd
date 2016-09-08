@@ -43,6 +43,9 @@ Reference list of common git commands.
 | git config --global user.name "Tom Chomiak" | globally set your user name |
 | git config --global user.email "youremail@email.com" | globally set your email |
 | git config --global color.ui true | enable colors in git command line |
+| git config --global core.editor atom | set default editor to atom |
+| git config --global merge.tool opendiff | set merge tool to opendiff|
+
 *--system* flag is used as a system wide setting for all users
 
 *--global* flag is used as a global setting for your user account
