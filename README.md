@@ -12,6 +12,7 @@ Reference list of common git commands.
 * [Diffs](#diffs)
 * [Commits](#commits)
 * [Branching](#branching)
+* [Aliases](#Aliases)
 
 
 ## Dynamic Targets
@@ -136,3 +137,16 @@ git init
 | git push `<remote>` :`<branch>` | adding colon deletes remote branch, not the local branch though |
 | git branch -d `<branch>` | remove local branch (will warn if have uncommited work) |
 | git branch -D `<branch>` | remove local branch and blow away any uncommited work |
+
+## Aliases
+| Command | Purpose |
+| ------- | ------ |
+|git config --global alias.<alias name> \ "<git code>" | create alias|
+
+Examples:
+
+```bash
+git config --global alias.lol \ "log --graph --decorate --pretty=oneline --abbrev-commit --all"
+
+git config --global alias.oneline \ "log --pretty=oneline"
+```
