@@ -148,5 +148,5 @@ Examples:
 ```bash
 git config --global alias.lol "log --graph --decorate --pretty=oneline --abbrev-commit --all"
 
-git config --global alias.oneline "log --pretty=oneline"
+git config --global alias.pom "push origin master"
 ```
