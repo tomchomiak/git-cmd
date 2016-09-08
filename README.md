@@ -141,12 +141,12 @@ git init
 ## Aliases
 | Command | Purpose |
 | ------- | ------ |
-|git config --global alias.<alias name> \ "<git code>" | create alias|
+|git config --global alias.<alias name> "<git code>" | create alias|
 
 Examples:
 
 ```bash
-git config --global alias.lol \ "log --graph --decorate --pretty=oneline --abbrev-commit --all"
+git config --global alias.lol "log --graph --decorate --pretty=oneline --abbrev-commit --all"
 
-git config --global alias.oneline \ "log --pretty=oneline"
+git config --global alias.oneline "log --pretty=oneline"
 ```
